@@ -62,4 +62,74 @@
     }
     a {
       color: #7bdcfb;
-      text-decoration:
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 16px;
+      font-size: 12px;
+      opacity: 0.7;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sattva Lab</h1>
+    <p class="tagline">Interactive & Real-Time Experiences Studio</p>
+    <p class="tagline">Interactive experiences, real-time content and visuals for brands, agencies and events.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>What we do</h2>
+      <p>
+        Sattva Lab is a studio specialized in interactive experiences and real-time content.
+        We collaborate with agencies and brands to turn ideas into prototypes, demos and finished
+        experiences ready to be shown at events, activations and campaigns.
+      </p>
+      <ul>
+        <li><span class="highlight">Interactive & real-time experiences:</span> installations, games and campaign dynamics for events.</li>
+        <li><span class="highlight">Unreal Engine &amp; Unity:</span> 3D environments, live visuals and immersive worlds.</li>
+        <li><span class="highlight">Landing pages & micro-sites:</span> campaign websites, QR mechanics, digital passports and simple registrations.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Unity Assets</h2>
+      <p>
+        We develop Unity packages and tools focused on interactive experiences and real-time visuals.
+        Soon you will find here the list of assets published on the Unity Asset Store.
+      </p>
+    </section>
+
+    <section>
+      <h2>About Sattva Lab</h2>
+      <p>
+        Sattva Lab works from Argentina for clients across the region, combining creative direction,
+        technical development and audiovisual production. We can join as a technical–creative partner
+        for a single piece or support the agency from pitch stage all the way to final delivery.
+      </p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact & Support</h2>
+      <p>For Unity asset support and general inquiries:</p>
+      <p>
+        📧 <a href="mailto:sattvalab.interactive@gmail.com">sattvalab.interactive@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Sattva Lab – Interactive & Real-Time Experiences Studio
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
